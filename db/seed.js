@@ -7,15 +7,101 @@ async function seed(){
     })
 
     await Board.bulkCreate([
-
+        {
+            type: 'test',
+            description: 'test',
+            rating: 0
+        },
+        {
+            type: 'test',
+            description: 'test',
+            rating: 0
+        },
+        {
+            type: 'test',
+            description: 'test',
+            rating: 0
+        },
+        {
+            type: 'test',
+            description: 'test',
+            rating: 0
+        },
+        {
+            type: 'test',
+            description: 'test',
+            rating: 0
+        },
     ])
 
     await Cheese.bulkCreate([
-
+        {
+            title: 'test',
+            description: 'test',
+        },
+        {
+            title: 'test',
+            description: 'test',
+        },
+        {
+            title: 'test',
+            description: 'test',
+        },
+        {
+            title: 'test',
+            description: 'test',
+        },
+        {
+            title: 'test',
+            description: 'test',
+        },
+        {
+            title: 'test',
+            description: 'test',
+        },
+        {
+            title: 'test',
+            description: 'test',
+        },
     ])
 
     await User.bulkCreate([
-
+        {
+            name: 'test',
+            email: 'test',
+        },
+        {
+            name: 'test',
+            email: 'test',
+        },
+        {
+            name: 'test',
+            email: 'test',
+        },
+        {
+            name: 'test',
+            email: 'test',
+        },
+        {
+            name: 'test',
+            email: 'test',
+        },
+        {
+            name: 'test',
+            email: 'test',
+        },
+        {
+            name: 'test',
+            email: 'test',
+        },
+        {
+            name: 'test',
+            email: 'test',
+        },
+        {
+            name: 'test',
+            email: 'test',
+        },
     ])
 }
 
