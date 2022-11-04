@@ -1,5 +1,5 @@
 const {Sequelize} = require('sequelize')
-//const path = require('path') where does path come from?
+//const path = require('path') //where does path come from?
 
 const db = new Sequelize({
     dialect: 'sqlite',
