@@ -11,9 +11,9 @@ describe('Testing the user', ()=>{
     })
     
     test('Check a user can be created',async()=>{
-       const user = await User.create({name:'Greg', email: 'test@test.co.uk'})
-       expect(user.name).toBe('Greg')
-       expect(user.id).toBeTruthy() 
+        const user = await User.create({name:'Greg', email: 'test@test.co.uk'})
+        expect(user.name).toBe('Greg')
+        expect(user.id).toBeTruthy() 
     })
 
 })
